@@ -1,7 +1,7 @@
-## Here I will create two functions; the first one creates a matrix and may invert it and store the inverted matrix,
-## the second one gets a matrix and inverse it only if its inverse wasn't stored earlier
+## Here I will create two functions; the first one creates a list of functions that all together create a matrix, 
+## invert it and store the inverted matrix; the second one gets a matrix and inverse it only if its inverse wasn't stored earlier.
 
-## This function creates a matrix and can cache its inverse
+## This function creates a list of functions that all together create a matrix, invert it and store the inverted matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
